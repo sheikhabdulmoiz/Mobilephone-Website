@@ -40,6 +40,13 @@ outline: none;
     width: 310px;
     margin: 0px auto;
 }
+#afterSearch{
+   /* text-align: center;    */
+    /* background-color: red; */
+    width: 310px;
+    margin: 0px auto;
+    }
+}
 #search{
     margin-top: 10px;
     justify-content: space-evenly;
