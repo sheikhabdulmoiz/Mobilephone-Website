@@ -36,15 +36,15 @@
                                 <select id="dropdown" style="width: 200px;">
                                     <option value="ipod" selected>iphone</option>
                                     <option value="radio">samsung</option>
-                                    <option value="computer">Sony</option>
-                                    <option value="computer">Motorolo</option>
+                                    <option value="computer">sony</option>
+                                    <option value="computer">motorola</option>
                                 </select>
                             </form>
                         </div>
                         <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                            <form>
+                            <!-- <form> onfocus="this.style.color='black';"   onblur="this.style.color='yellow';" -->
                                 Search Mobile by name:
-                                <input type="search" id="search" name="search" placeholder="type mobile name" />
+                                <input type="search" id="search" name="search" onblur="blurr()" onfocus="focuss()"/>
                                 <input type="button" onclick="searchmobile()" value="Search" />
                             </form>
                             <!-- <input type="search"  id="search" size="30" placeholder="type mobile name"> -->
@@ -117,33 +117,45 @@
 
                 </div>
             </div>
-            <!-- <div class="row" id="div_nonvisible">
+            <div class="row" id="div_nonvisible">
                 <div class="try1 col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3" id="card9">
-    
+
                 </div>
                 <div class="try2 col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3" id="card10">
-    
+
                 </div>
                 <div class="try3 col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3" id="card11">
-    
+
                 </div>
                 <div class="try3 col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3" id="card12">
-    
-                </div> -->
 
+                </div>
+            </div>
+            <div class="row" id="div_nonvisible">
+                <div class="try1 col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3" id="card13">
+
+                </div>
+                <div class="try2 col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3" id="card14">
+
+                </div>
+                <div class="try3 col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3" id="card15">
+
+                </div>
+                <div class="try3 col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3" id="card16">
+
+                </div>
+            </div>
+            <div class="row" id="div_nonvisible">
+             
+                
+                
+            </div>
 
         </div>
     </div>
 
 
-    </div>
 
-
-
-
-
-
-    <div id="counter"><div></div><div></div></div>
 
 
     <script src="app.js"></script>

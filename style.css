@@ -30,3 +30,18 @@ margin-right: 30px;
 outline: none; 
 }
 
+.card{
+    background-color: rgb(248, 246, 246);
+    border-color: rgb(0, 0, 0,0.2);
+}
+
+.searchblur::placeholder{
+    color:rgb(179, 172, 172);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-size: 12.5px;
+}
+
+
+.searchfocus::placeholder{
+    color:rgb(179, 172, 172);
+}
